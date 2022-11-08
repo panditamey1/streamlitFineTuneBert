@@ -11,8 +11,9 @@ def get_model():
 
 tokenizer, model = get_model()
 
+
 user_input = st.text_area("Enter text to analyze")
-button = st.button("Analyze")
+button = st.button("ANALYZE")
 
 d = {1:'Toxic', 0:'Non Toxic'}
 
